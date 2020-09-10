@@ -36,6 +36,8 @@ minecraft {
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
 
+            arg "-mixin.config=betterworldlist.mixins.json"
+
             mods {
                 betterworldlist {
                     source sourceSets.main
@@ -51,6 +53,8 @@ minecraft {
 
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
+
+            arg "-mixin.config=betterworldlist.mixins.json"
 
             mods {
                 betterworldlist {
